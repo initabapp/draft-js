@@ -30,8 +30,7 @@
     "format": "eslint . --fix",
     "flow": "flow src",
     "test": "cross-env NODE_ENV=test jest",
-    "test-ci": "cross-env NODE_ENV=test npm run lint && npm run flow && npm run test",
-    "install": "npm run build"
+    "test-ci": "cross-env NODE_ENV=test npm run lint && npm run flow && npm run test"
   },
   "dependencies": {
     "fbjs": "^0.8.15",
